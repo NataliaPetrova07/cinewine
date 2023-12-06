@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const nunito_sans = Nunito_Sans({ subsets: ["latin"] });
 
 export default function About() {
   return (
@@ -13,7 +13,7 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main} ${nunito_sans.className}`}>
         <div className={styles.description}>
           <h1>About</h1>
         </div>

@@ -1,0 +1,41 @@
+.activeIndicator {
+  position: absolute;
+  top: 20px;
+  height: 3px;
+  width: 100%;
+  background: black;
+  left: 0;
+}
+
+.Desktopnav {
+  display: flex;
+  height: 100px;
+  margin: 0 300px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  border-bottom: var(--divider);
+  text-transform: uppercase;
+  /* 
+  if fixed on top
+  
+  width: calc(100vw - 600px);
+  position: fixed;
+  left: 300px; */
+}
+
+.Desktopnav :first-child,
+.Mobilenav :first-child {
+  margin-right: auto;
+}
+
+.Mobilenav {
+  display: flex;
+  height: 70px;
+  margin: 0 24px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  border-bottom: var(--divider);
+  text-transform: uppercase;
+}
