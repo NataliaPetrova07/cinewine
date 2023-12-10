@@ -1,4 +1,5 @@
-.Desktopnav {
+.Desktopnav,
+.Footer {
   display: flex;
   height: 100px;
   margin: 0 100px;
@@ -15,8 +16,20 @@
 }
 
 .Desktopnav :first-child,
-.Mobilenav :first-child {
+.Mobilenav :first-child,
+.Footer :first-child {
   margin-right: auto;
+}
+
+.Footer :last-child {
+  margin-left: auto;
+}
+
+.Footer {
+  padding: 2rem;
+  margin: 5rem 0;
+  border-top: 1px solid var(--n-500);
+  flex-wrap: wrap;
 }
 
 .Mobilenav {
@@ -38,13 +51,23 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .Desktopnav {
+  .Desktopnav,
+  .Footer {
     margin: 0 150px;
+  }
+  .Footer {
+    margin-top: 5rem;
+    flex-wrap: nowrap;
+    padding: 2rem 0;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .Desktopnav {
+  .Desktopnav,
+  .Footer {
     margin: 0 200px;
+  }
+  .Footer {
+    margin-top: 10rem;
   }
 }
