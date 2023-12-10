@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1367 396" style="enable-background:new 0 0 1367 396;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
-</style>
-<radialGradient id="SVGID_1_" cx="793.9103" cy="394.8033" r="793.4321" gradientUnits="userSpaceOnUse">
-	<stop  offset="0" style="stop-color:#EFDC01"/>
-	<stop  offset="1" style="stop-color:#B68503"/>
-</radialGradient>
-<path class="st0" d="M1257.4,172.5c-11.6-3.3-21.6-7.9-29.6-13.9l-3-2.2l13.9-37.7l5.3,3.7c6.8,4.7,14.5,8.5,23.2,11.3
+function Christmas() {
+  return (
+    <>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1367 396" style={{ enableBackground: "new 0 0 1367 396" }} xmlSpace="preserve">
+        <style type="text/css">
+          .st0 {"{"} fill-rule: evenodd; clip-rule: evenodd; fill: url(#SVGID_1_); {"}"}
+        </style>
+        <radialGradient id="SVGID_1_" cx="793.9103" cy="394.8033" r="793.4321" gradientUnits="userSpaceOnUse">
+          <stop offset="0" style={{ stopColor: "#EFDC01" }} />
+          <stop offset="1" style={{ stopColor: "#B68503" }} />
+        </radialGradient>
+        <path
+          className="st0"
+          d="M1257.4,172.5c-11.6-3.3-21.6-7.9-29.6-13.9l-3-2.2l13.9-37.7l5.3,3.7c6.8,4.7,14.5,8.5,23.2,11.3
 	c8.8,2.8,18.1,4.1,27.7,4.1c10.8,0,17.3-1.7,20.8-4.1c3.8-2.8,5.3-5.7,5.3-9c0-3-1-5-3.1-6.6c-2.4-1.9-7.4-3.9-15.7-5.7c0,0,0,0,0,0
 	l-26-5.5c-15.1-3.2-27-8.8-35.2-17.3c-8.3-8.6-12.3-19.6-12.3-32.7c0-11.2,3-21.2,9.2-29.8c6.1-8.6,14.5-15.2,25.1-19.8l0,0l0,0
 	c10.7-4.6,22.9-6.8,36.5-6.8c11.7,0,22.7,1.7,33.1,5.1c10.4,3.4,19.1,8.2,26.2,14.6l2.6,2.3L1347.2,58l-5.3-4.2
@@ -75,5 +78,11 @@
 	 M705.9,247c-15.2-14.1-36.6-21.2-64.2-21.2h-63.5V388h63.5c27.6,0,49-7.1,64.2-21.2s22.8-34.1,22.8-60S721.1,261,705.9,247z
 	 M618.9,353.8h20.8c16.5,0,27.9-4.1,35.3-11.5c7.4-7.4,11.5-18.9,11.5-35.5c0-16.5-4.1-27.9-11.5-35.3c-7.4-7.4-18.8-11.5-35.3-11.5
 	h-20.8V353.8z M639.7,358.8c34.5,0,51.8-17.3,51.8-52c0-34.5-17.2-51.8-51.8-51.8h-25.8v103.7H639.7z M434,393V220.9h121.1v37.8H478
-	v28h72v38.1h-72v30.5h77.1V393H434z M473,360.2v-40.5h72v-28.1h-72v-38h77.1v-27.8H439V388h111.1v-27.8H473z"/>
-</svg>
+	v28h72v38.1h-72v30.5h77.1V393H434z M473,360.2v-40.5h72v-28.1h-72v-38h77.1v-27.8H439V388h111.1v-27.8H473z"
+        />
+      </svg>
+    </>
+  );
+}
+
+export default Christmas;

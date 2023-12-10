@@ -1,7 +1,5 @@
-import React from "react";
-
-function OutlinedButton() {
-  return <div>OutlinedButton</div>;
+function OutlinedButton({ label }) {
+  return <button>{label}</button>;
 }
 
 export default OutlinedButton;

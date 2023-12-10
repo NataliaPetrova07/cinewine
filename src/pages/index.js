@@ -1,8 +1,11 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import circles from "@/assets/circles.svg";
-import christmas from "@/assets/display_christmas_evt.svg";
 import Image from "next/image";
+import Contribute from "@/components/sections/ContributeSection";
+import OutlinedButton from "@/components/buttons/OutlinedButton";
+import UpcomingSection from "@/components/sections/UpcomingSection";
+import PastEventsSection from "@/components/sections/PastEventsSection";
 
 export default function Home() {
   return (
@@ -14,29 +17,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        <Image className={styles.circles} src={circles} alt="background graphics" width={2196} height={1356} />
-        <div className={styles.description}>
-          <h1>Empowering collective action through shared experiences.</h1>
-        </div>
-        <a href="#" className="link">
-          Join the event
-        </a>
-        <Image className={styles.christmas} src={christmas} alt="background graphics" width={1365.9} height={395.21} />
-        <div className={styles.upcoming}>
-          <h4 className="label">Upcoming event</h4>
-          <div className="divider"></div>
-          <h5 className="highlighted">11th December / 18:00 - 22:00</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
-          <div className={styles.buttonsflex}>
-            <a href="#" className="link">
-              Join the event
-            </a>
-            <a href="#" className="link">
-              Learn more
-            </a>
+        <div className={styles.hero}>
+          <Image className={styles.circles} src={circles} alt="background graphics" width={1515.29} height={1281} />
+          <div className={styles.description}>
+            <h1>Cultivating connections through cinema & wine </h1>
           </div>
+          <OutlinedButton label={"Join the community"} />
         </div>
-        <button>This is a button</button>
+        <UpcomingSection />
+        <PastEventsSection />
+        <Contribute />
       </main>
     </>
   );

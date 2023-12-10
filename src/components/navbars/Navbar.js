@@ -4,5 +4,5 @@ import Desktopnav from "./Desktopnav";
 
 export default function Navbar() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
-  return <div>{isMobile ? <Mobilenav /> : <Desktopnav />}</div>;
+  return <header>{isMobile ? <Mobilenav /> : <Desktopnav />}</header>;
 }

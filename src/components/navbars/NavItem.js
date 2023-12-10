@@ -8,11 +8,8 @@ function NavItem({ href, text, isActive, onClick }) {
     }
   };
   return (
-    <Link href={href}>
-      <div onClick={handleClick}>
-        {text}
-        {/* {isActive && <div className={styles.activeIndicator} />} */}
-      </div>
+    <Link className={`${styles.navitem} ${isActive ? styles.activeIndicator : ""}`} href={href}>
+      <div onClick={handleClick}>{text}</div>
     </Link>
   );
 }

@@ -1,20 +1,10 @@
-.activeIndicator {
-  position: absolute;
-  top: 20px;
-  height: 3px;
-  width: 100%;
-  background: black;
-  left: 0;
-}
-
 .Desktopnav {
   display: flex;
   height: 100px;
-  margin: 0 300px;
+  margin: 0 100px;
   align-items: center;
   justify-content: flex-end;
   gap: 24px;
-  border-bottom: var(--divider);
   text-transform: uppercase;
   /* 
   if fixed on top
@@ -36,6 +26,25 @@
   align-items: center;
   justify-content: flex-end;
   gap: 24px;
-  border-bottom: var(--divider);
   text-transform: uppercase;
+}
+
+.navitem:hover {
+  color: var(--merlot-blue);
+}
+
+.activeIndicator {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1024px) {
+  .Desktopnav {
+    margin: 0 150px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .Desktopnav {
+    margin: 0 200px;
+  }
 }

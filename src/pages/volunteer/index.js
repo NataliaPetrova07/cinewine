@@ -1,8 +1,5 @@
+import { DynamicServerError } from "next/dist/client/components/hooks-server-context";
 import Head from "next/head";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Volunteer() {
   return (
@@ -13,8 +10,8 @@ export default function Volunteer() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
+      <main>
+        <div>
           <h1>Volunteer</h1>
         </div>
       </main>
