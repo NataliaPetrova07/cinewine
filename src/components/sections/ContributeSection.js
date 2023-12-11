@@ -9,7 +9,7 @@ function ContributeSection() {
       </div>
       <div className="contribute_flex">
         <LabeledDivider label={"Contribute to Cinewine"} />
-        <h2>Become a volunteer or sponsor an event</h2>
+        <h2>Become a volunteer or sponsor the event</h2>
         <p>
           Join us in making a meaningful impact and help build a stronger community by volunteering or creating memorable moments by showcasing your wine and becoming a valued sponsor. Volunteer or sponsor to elevate the event, creating lasting
           memories for all.
