@@ -151,6 +151,35 @@
   margin-bottom: 2rem;
 }
 
+.contribute_display {
+  margin-left: -10vw;
+  margin-bottom: 14rem;
+  margin-top: -21rem;
+}
+.contribute_img {
+  margin-top: 2rem;
+}
+.contribute_info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+.open_positions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+.open_positions h4 {
+  margin-bottom: 1rem;
+}
+.contribute_form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 @media only screen and (min-width: 768px) {
   .main {
     padding: 0 100px;
@@ -187,6 +216,10 @@
     margin-right: -15vw;
     margin-left: 20vw;
   }
+  .contribute_display {
+    margin-left: -15vw;
+    margin-right: 20vw;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -194,7 +227,7 @@
     padding: 0 150px;
   }
   .subpage_hero {
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
   .about_contentflex,
   .valuesgrid,
@@ -260,6 +293,11 @@
     gap: 3rem;
     justify-content: end;
   }
+  .contribute_display {
+    margin-left: -18vw;
+    margin-right: 20vw;
+    margin-bottom: 10rem;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -284,6 +322,39 @@
   }
   .movie_info {
     margin-top: 2rem;
+  }
+  .contribute_display {
+    margin-left: -16vw;
+    margin-top: -35rem;
+  }
+  .contribute_img,
+  .contribute_info {
+    padding-left: 20vw;
+  }
+  .contribute_info {
+    padding-right: 5vw;
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+
+  .contribute_info h1 {
+    margin-bottom: 2rem;
+  }
+  .open_positions {
+    flex-direction: row;
+    margin-bottom: 10rem;
+    gap: 3rem;
+  }
+  .contribute_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contribute_form div:nth-child(1) {
+    grid-column: 1 / span 2;
+  }
+  .contribute_form div:nth-child(2) {
+    grid-column: 2 / span 1;
+    margin-top: 1rem;
   }
 }
 
@@ -335,5 +406,20 @@
   }
   .long_description {
     margin-top: 14rem;
+  }
+  .contribute_display {
+    margin-left: -10vw;
+    margin-top: -50rem;
+  }
+  .contribute_img,
+  .contribute_info {
+    padding-left: 30vw;
+    padding-bottom: 10rem;
+  }
+  .open_positions {
+    margin-bottom: 20rem;
+  }
+  .contribute_form {
+    grid-template-columns: 2fr 1fr;
   }
 }
