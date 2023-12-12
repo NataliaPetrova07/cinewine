@@ -1,5 +1,6 @@
 import LabeledDivider from "../dividers/LabeledDivider";
 import Contribute from "@/components/display/contribute";
+import Link from "next/link";
 
 function ContributeSection() {
   return (
@@ -15,12 +16,12 @@ function ContributeSection() {
           memories for all.
         </p>
         <div className="buttonsflex">
-          <a href="/volunteer" className="link">
+          <Link href={"/volunteer"} className="link">
             volunteer
-          </a>
-          <a href="/sponsor" className="link">
+          </Link>
+          <Link href={"/sponsor"} className="link">
             sponsor
-          </a>
+          </Link>
         </div>
       </div>
     </>

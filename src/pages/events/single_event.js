@@ -48,10 +48,10 @@ export default function Single_event() {
               <p>Location: Primarily filmed in Tokyo, Japan</p>
             </div>
             <p className={styles.long_description}>
-              "Lost in Translation" continues to resonate in today's context of granting ourselves and others a chance for understanding and connection amidst cultural, generational, or personal differences. The film's portrayal of two individuals
-              navigating an unfamiliar environment mirrors our modern challenge of bridging gaps and extending empathy in an increasingly diverse and interconnected world. Its central theme of fleeting encounters and missed connections reflects the
-              importance of offering second chances, whether in relationships or interactions, emphasizing the significance of patience, empathy, and open-mindedness in fostering meaningful connections in a society often marked by swift judgments and
-              misunderstandings.
+              &ldquo;Lost in Translation&rdquo; continues to resonate in today's context of granting ourselves and others a chance for understanding and connection amidst cultural, generational, or personal differences. The film's portrayal of two
+              individuals navigating an unfamiliar environment mirrors our modern challenge of bridging gaps and extending empathy in an increasingly diverse and interconnected world. Its central theme of fleeting encounters and missed connections
+              reflects the importance of offering second chances, whether in relationships or interactions, emphasizing the significance of patience, empathy, and open-mindedness in fostering meaningful connections in a society often marked by swift
+              judgments and misunderstandings.
             </p>
           </div>
         </div>

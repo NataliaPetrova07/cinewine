@@ -119,7 +119,7 @@ const items = [
   },
 ];
 const App = () => {
-  const onChange = (key) => {};
+  const onChange = () => {};
   return <Collapse className="collapsePanel" style={{ backgroundColor: "var(--n-300)" }} items={items} bordered={false} defaultActiveKey={["1"]} onChange={onChange} />;
 };
 export default App;

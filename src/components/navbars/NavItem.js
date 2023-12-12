@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PropTypes from "prop-types";
 import styles from "@/components/navbars/Navbar.module.css";
 
 function NavItem({ href, text, isActive, onClick }) {
@@ -13,5 +14,12 @@ function NavItem({ href, text, isActive, onClick }) {
     </Link>
   );
 }
+
+NavItem.propTypes = {
+  href: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  isActive: PropTypes.bool,
+  onClick: PropTypes.func,
+};
 
 export default NavItem;

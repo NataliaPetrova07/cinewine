@@ -1,5 +1,6 @@
 import LabeledDivider from "../dividers/LabeledDivider";
 import Christmas from "../display/christmas";
+import Link from "next/link";
 
 export default function UpcomingSection() {
   return (
@@ -12,12 +13,12 @@ export default function UpcomingSection() {
         <h5 className="highlighted">11th December / 18:00 - 22:00</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.</p>
         <div className="buttonsflex">
-          <a href="#" className="link">
-            Join event
-          </a>
-          <a href="/events/single_event" className="link">
+          <Link href={"#"} className="link">
+            LinkJoin event
+          </Link>
+          <Link href={"/events/single_event"} className="link">
             Learn more
-          </a>
+          </Link>
         </div>
       </div>
     </>

@@ -34,7 +34,7 @@ export default function SponsorPage() {
             platforms, ensuring visibility to our engaged audience.
           </p>
 
-          <p>Partner with CineWine and become an integral part of crafting unforgettable moments in community. Reach out to us today and let's create meaningful connections.</p>
+          <p>Partner with CineWine and become an integral part of crafting unforgettable moments in community. Reach out to us today and let&apos;s create meaningful connections.</p>
         </div>
 
         <div className={styles.contribute_form}>

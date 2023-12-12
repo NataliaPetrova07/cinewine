@@ -1,5 +1,6 @@
 import LabeledDivider from "../dividers/LabeledDivider";
 import EventCard from "../cards/EventCard";
+import Link from "next/link";
 
 export default function PastEventsSection() {
   return (
@@ -16,7 +17,7 @@ export default function PastEventsSection() {
         </div>
       </div>
       <div className="link center">
-        <a href="/events">Explore all</a>
+        <Link href={"/events"}>Explore all</Link>
       </div>
     </>
   );
